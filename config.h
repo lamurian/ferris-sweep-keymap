@@ -19,6 +19,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DEBUG_MATRIX_SCAN_RATE
 
+#define MASTER_LEFT
+
+// Configure combo
+#define COMBO_COUNT 10
+#define COMBO_TERM  20
+
+// Tap dance sequence config
+#define TAPPING_TERM 200
+#define RETRO_TAPPING
+
 // Underglow configuration
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_EFFECT_BREATHING
